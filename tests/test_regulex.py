@@ -1,9 +1,11 @@
 from unittest.mock import patch
+
 from rich.text import Text
+
 from regulex import (
-    highlight_matches,
-    explain_pattern,
     check_regex,
+    explain_pattern,
+    highlight_matches,
     interactive_mode,
     print_banner,
 )
