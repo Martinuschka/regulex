@@ -14,4 +14,5 @@ venv/
 
 # Testing
 .pytest_cache/
+.ruff_cache/
 !pytest.ini
